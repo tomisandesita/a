@@ -1,11 +1,9 @@
-/* フォントの統一 */
 @font-face {
     font-family: 'Keifont';
-    src: url('keifont.woff2') format('woff2'),
-         url('keifont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+    src: url('font/Keifont.woff') format('woff');
+  }
+  
+
 
 /* リセットと基本スタイル */
 * {
@@ -15,7 +13,7 @@
 }
 
 body {
-    font-family: 'Keifont', sans-serif;
+    font-family: 'Keifont';
     font-weight: 300; /* フォントを細く */
     color: #ffffff;
     background-color: #8f8f8f;

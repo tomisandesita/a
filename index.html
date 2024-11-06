@@ -7,51 +7,63 @@
     <meta name="description" content="GJBOTをサポートしているサイトです。">
     <meta name="keywords" content="とみー,暇つぶし">
     <meta name="robots" content="index, follow">
-    <link rel="app-touch-icon" href="logo.png">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="logo.png" type="image/x-icon"> <!-- ファビコンの追加 -->
-<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
-    <meta property="og:title" content="しょーもない道具箱ツールリスト">
-    <meta property="og:description" content="GJBOTをサポートしているサイトです。">
-    <meta property="og:url" content="https://tomisandesita.github.io/shtool/テンプレ/">
-    <meta property="og:image" content="https://tomisandesita.github.io/shtool/logo.png">
-    <meta property="og:site_name" content="しょーもない道具箱">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="しょーもない道具箱">
-    <meta name="twitter:description" content="しょーもない暇つぶしツールとかだしているさいと。">
-    <meta name="twitter:image" content="https://tomisandesita.github.io/shtool/logo.png">
+    <link rel="icon" href="logo.png" type="image/x-icon">
     <style>
-.top{
-    text-align: center;
-}
+        .main-content {
+            position: relative;
+            background-image: url('gjbot.png');
+            background-size: cover;
+            background-position: center;
+            height: 470px; /* 必要に応じて高さを調整 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            user-select: none;
+        }
 
+        .text-overlay {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .redcolor{
+            color: red;
+        }
+        
     </style>
 </head>
 <body>
     <header>
         <div class="header-container">
             <img src="logo.png" alt="Logo" class="logo">
-            <div class="nocolorlink"><a href="index.html" ><h1>ホーム</h1></a></div>
+            <div class="nocolorlink"><a href="index.html"><h1>ホーム</h1></a></div>
             <nav>
                 <ul>
-                    <li><a href="index.html"  >ホーム</a></li>
-                    <li><a href="commands.html"  >コマンドリスト</a></li>
-<li><a href="profile.html"  >製作者プロフィール</a></li>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="commands.html">コマンドリスト</a></li>
+                    <li><a href="profile.html">製作者プロフィール</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <br><br> <br><br><br><br><br><br>
-    <!-- ここからメイン要素置き場 -->
-     <div class="top">
-        <img src="" alt="">
-     </div>
-    <!--ここまでメイン要素置き場。-->
+    <br><br><br><br><br>
+    <main class="main-content" >
+        <div class="text-overlay">日本語に対応した多機能管理BOT<br>その名も <span class="redcolor">GJBOT</span><br>このサイトでカバーし、サポートします。</div>
+    </main>
+
     <footer>
         <p>
-            &copy; 2024 TOOLS SHOUMONAI<br><a href="https://www.youtube.com/channel/UCKG8x3kgEXAefSenOpFQj7Q/"target="_blank" rel="noopener noreferrer"><img src="image2.png" alt="Youtubelogo"></a> <a href="discord.html" target="_blank"rel="noopener noreferrer"><img src="image3.png" alt="discordlogo"></a>
+            &copy; 2024 GJBOT TEAMS<br>
+            <a href="https://www.youtube.com/channel/UCKG8x3kgEXAefSenOpFQj7Q/" target="_blank" rel="noopener noreferrer">
+                <img src="image2.png" alt="Youtubelogo">
+            </a>
+            <a href="discord.html" target="_blank" rel="noopener noreferrer">
+                <img src="image3.png" alt="discordlogo">
+            </a>
         </p>
     </footer>
-
 </body>
 </html>
